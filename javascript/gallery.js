@@ -11,7 +11,7 @@
     btn.addEventListener('click', () => {
       const f = btn.dataset.filter;
       document.querySelectorAll('.filters button').forEach(b => b.setAttribute('aria-pressed', b === btn));
-      links.forEach(a => { a.hidden = !(f === 'all' || a.dataset.cat === f); });
+      links.forEach(a => { a.hidden = !(f === 'all' || a.dataset.cat.split(' ').includes(f)); });
       visible = links.filter(a => !a.hidden);
     });
   });
