@@ -1,46 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Reels | Damien Boykin</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reel | Damien Boykin</title>
+  <meta name="description" content="Watch Damien Boykin's acting reel.">
+  <link rel="canonical" href="https://damienboykin.com/reels.html">
+  <meta property="og:title" content="Reel | Damien Boykin">
+  <meta property="og:description" content="Watch Damien Boykin's acting reel.">
+  <meta property="og:image" content="https://damienboykin.com/images/headshots/professionalheadshot2.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1D2A38">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/big-shoulders-display.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="container header-grid">
-      <div class="name-location">
-        <h1>Damien Boykin</h1>
-        <p class="location">Austin, TX</p>
-      </div>
-      <nav class="main-nav">
+    <div class="wrap">
+      <a class="wordmark" href="index.html">Damien Boykin</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="resume.html">Resumé</a>
-        <a href="reels.html" class="active">Reels</a>
-        <a href="gallery.html">Gallery</a>
+        <a href="resume.html">Résumé</a>
+        <a href="reels.html" aria-current="page">Reel</a>
+        <a href="gallery.html">Photos</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main class="container reels">
-    <h2>Hamlet - To Be</h2>
-    
-<div class="video-wrapper">
-  <iframe src="https://www.youtube.com/embed/pgPiaoCAWMo" 
-          width="560" 
-          height="315" 
-          frameborder="0" 
-          allowfullscreen>
-  </iframe>
-</div>
-    <!-- Add as many as you have -->
+  <main id="main">
+    <div class="wrap">
+      <header class="page-head"><h1 class="page-title">Reel</h1></header>
+      <div class="video">
+        <iframe src="https://www.youtube-nocookie.com/embed/pgPiaoCAWMo" title="Damien Boykin: Hamlet, To be or not to be" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p class="caption">Hamlet, “To be, or not to be.”</p>
+    </div>
   </main>
 
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <a class="wordmark" href="index.html">Damien Boykin</a>
+        <p>Actor based in Austin, Texas. SAG-AFTRA eligible.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:damientboykin@gmail.com">damientboykin@gmail.com</a>
+        <a href="https://instagram.com/damien_boykin" rel="noopener">Instagram</a>
+        <a href="downloads/DamienBoykinResume.pdf">Résumé PDF</a>
+      </div>
+    </div>
+  </footer>
   <script src="javascript/script.js"></script>
 </body>
 </html>

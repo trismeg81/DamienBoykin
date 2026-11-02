@@ -1,407 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gallery | Damien Boykin</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photos | Damien Boykin</title>
+  <meta name="description" content="Production stills and rehearsal photos of actor Damien Boykin.">
+  <link rel="canonical" href="https://damienboykin.com/gallery.html">
+  <meta property="og:title" content="Photos | Damien Boykin">
+  <meta property="og:description" content="Production stills and rehearsal photos of actor Damien Boykin.">
+  <meta property="og:image" content="https://damienboykin.com/images/headshots/professionalheadshot2.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1D2A38">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/big-shoulders-display.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="container header-grid">
-      <div class="name-location">
-        <h1>Damien Boykin</h1>
-        <p class="location">Austin, TX</p>
-      </div>
-      <nav class="main-nav">
+    <div class="wrap">
+      <a class="wordmark" href="index.html">Damien Boykin</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="resume.html">Resumé</a>
-        <a href="reels.html">Reels</a>
-        <a href="gallery.html" class="active">Gallery</a>
+        <a href="resume.html">Résumé</a>
+        <a href="reels.html">Reel</a>
+        <a href="gallery.html" aria-current="page">Photos</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main class="container gallery">
-    <h2>Headshots & Production Stills</h2>
-    
-    <div class="gallery-grid">
-      <!-- All 85 gallery images (missing ones will just not show) -->
-      <a href="images/gallery/gallery-1.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-1.jpg" alt="Gallery image 1" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-2.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-2.jpg" alt="Gallery image 2" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-3.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-3.jpg" alt="Gallery image 3" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-4.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-4.jpg" alt="Gallery image 4" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-5.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-5.jpg" alt="Gallery image 5" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-6.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-6.jpg" alt="Gallery image 6" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-7.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-7.jpg" alt="Gallery image 7" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-8.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-8.jpg" alt="Gallery image 8" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-9.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-9.jpg" alt="Gallery image 9" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-10.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-10.jpg" alt="Gallery image 10" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-11.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-11.jpg" alt="Gallery image 11" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-12.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-12.jpg" alt="Gallery image 12" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-15.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-15.jpg" alt="Gallery image 15" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-16.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-16.jpg" alt="Gallery image 16" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-17.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-17.jpg" alt="Gallery image 17" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-18.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-18.jpg" alt="Gallery image 18" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-19.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-19.jpg" alt="Gallery image 19" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-20.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-20.jpg" alt="Gallery image 20" loading="lazy">
-      </a>
-      <!-- 21 missing - skipped automatically -->
-      <a href="images/gallery/gallery-24.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-24.jpg" alt="Gallery image 24" loading="lazy">
-      </a>
-      <!-- Wait, no: to include all placeholders -->
-      <!-- Actually, better to have all 1-85 for completeness -->
-      <a href="images/gallery/gallery-23.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-23.jpg" alt="Gallery image 23" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-25.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-25.jpg" alt="Gallery image 25" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-26.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-26.jpg" alt="Gallery image 26" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-27.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-27.jpg" alt="Gallery image 27" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-28.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-28.jpg" alt="Gallery image 28" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-29.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-29.jpg" alt="Gallery image 29" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-30.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-30.jpg" alt="Gallery image 30" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-31.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-31.jpg" alt="Gallery image 31" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-32.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-32.jpg" alt="Gallery image 32" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-33.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-33.jpg" alt="Gallery image 33" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-34.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-34.jpg" alt="Gallery image 34" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-35.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-35.jpg" alt="Gallery image 35" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-36.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-36.jpg" alt="Gallery image 36" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-37.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-37.jpg" alt="Gallery image 37" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-38.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-38.jpg" alt="Gallery image 38" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-39.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-39.jpg" alt="Gallery image 39" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-40.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-40.jpg" alt="Gallery image 40" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-41.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-41.jpg" alt="Gallery image 41" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-42.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-42.jpg" alt="Gallery image 42" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-43.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-43.jpg" alt="Gallery image 43" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-44.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-44.jpg" alt="Gallery image 44" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-45.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-45.jpg" alt="Gallery image 45" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-46.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-46.jpg" alt="Gallery image 46" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-47.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-47.jpg" alt="Gallery image 47" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-48.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-48.jpg" alt="Gallery image 48" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-49.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-49.jpg" alt="Gallery image 49" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-50.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-50.jpg" alt="Gallery image 50" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-51.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-51.jpg" alt="Gallery image 51" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-52.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-52.jpg" alt="Gallery image 52" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-53.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-53.jpg" alt="Gallery image 53" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-54.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-54.jpg" alt="Gallery image 54" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-55.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-55.jpg" alt="Gallery image 55" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-56.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-56.jpg" alt="Gallery image 56" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-57.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-57.jpg" alt="Gallery image 57" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-58.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-58.jpg" alt="Gallery image 58" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-59.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-59.jpg" alt="Gallery image 59" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-60.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-60.jpg" alt="Gallery image 60" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-61.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-61.jpg" alt="Gallery image 61" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-62.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-62.jpg" alt="Gallery image 62" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-63.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-63.jpg" alt="Gallery image 63" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-64.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-64.jpg" alt="Gallery image 64" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-65.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-65.jpg" alt="Gallery image 65" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-66.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-66.jpg" alt="Gallery image 66" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-67.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-67.jpg" alt="Gallery image 67" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-68.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-68.jpg" alt="Gallery image 68" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-69.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-69.jpg" alt="Gallery image 69" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-70.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-70.jpg" alt="Gallery image 70" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-71.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-71.jpg" alt="Gallery image 71" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-72.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-72.jpg" alt="Gallery image 72" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-73.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-73.jpg" alt="Gallery image 73" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-74.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-74.jpg" alt="Gallery image 74" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-75.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-75.jpg" alt="Gallery image 75" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-76.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-76.jpg" alt="Gallery image 76" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-77.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-77.jpg" alt="Gallery image 77" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-78.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-78.jpg" alt="Gallery image 78" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-79.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-79.jpg" alt="Gallery image 79" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-80.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-80.jpg" alt="Gallery image 80" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-81.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-81.jpg" alt="Gallery image 81" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-82.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-82.jpg" alt="Gallery image 82" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-83.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-83.jpg" alt="Gallery image 83" loading="lazy">
-      </a>
-      <a href="images/gallery/gallery-84.jpg" class="gallery-item">
-        <img src="images/gallery/gallery-84.jpg" alt="Gallery image 84" loading="lazy">
-      </a>
+  <main id="main">
+    <div class="wrap">
+      <header class="page-head">
+        <h1 class="page-title">Photos</h1>
+        <p>Production stills and rehearsal photos. Select any photo to view it full size.</p>
+      </header>
+      <div class="filters" role="group" aria-label="Filter photos">
+        <button type="button" data-filter="all" aria-pressed="true">All (82)</button>
+        <button type="button" data-filter="stage" aria-pressed="false">On stage (64)</button>
+        <button type="button" data-filter="rehearsal" aria-pressed="false">Rehearsal (18)</button>
+      </div>
+      <div class="grid" id="grid">
+          <a href="images/gallery/gallery-1.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-1.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-2.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-2.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-3.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-3.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-4.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-4.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-5.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-5.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-6.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-6.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-7.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-7.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-8.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-8.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-9.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-9.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-10.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-10.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-11.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-11.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-12.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-12.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-13.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-13.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-14.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-14.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-15.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-15.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-16.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-16.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-17.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-17.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-18.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-18.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-19.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-19.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-20.jpg" data-cat="rehearsal"><img src="images/gallery/thumbs/gallery-20.jpg" alt="Rehearsal photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-23.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-23.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-24.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-24.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-25.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-25.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-26.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-26.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-27.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-27.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-28.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-28.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-29.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-29.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-30.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-30.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-31.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-31.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-32.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-32.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-33.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-33.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-34.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-34.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-35.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-35.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-36.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-36.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-37.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-37.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-38.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-38.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-39.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-39.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-40.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-40.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-41.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-41.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-42.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-42.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-43.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-43.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-44.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-44.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-45.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-45.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-46.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-46.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-47.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-47.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-48.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-48.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-49.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-49.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-50.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-50.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-51.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-51.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-52.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-52.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-53.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-53.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-54.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-54.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-55.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-55.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-56.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-56.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-57.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-57.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-58.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-58.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-59.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-59.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-60.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-60.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-61.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-61.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-62.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-62.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-63.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-63.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-64.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-64.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-65.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-65.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-66.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-66.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-67.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-67.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-68.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-68.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-69.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-69.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-70.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-70.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-71.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-71.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-72.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-72.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-73.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-73.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-74.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-74.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-75.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-75.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-76.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-76.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-77.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-77.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-78.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-78.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-79.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-79.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-80.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-80.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-81.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-81.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-82.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-82.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-83.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-83.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+          <a href="images/gallery/gallery-84.jpg" data-cat="stage"><img src="images/gallery/thumbs/gallery-84.jpg" alt="Production photo of Damien Boykin" loading="lazy"></a>
+      </div>
+    </div>
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+      <img alt="">
+      <button class="lb-close" type="button">Close</button>
+      <button class="lb-prev" type="button">Previous</button>
+      <button class="lb-next" type="button">Next</button>
+      <p class="lb-count" aria-live="polite"></p>
     </div>
   </main>
 
- <!-- Lightbox Modal -->
-<div id="lightbox" class="lightbox">
-  <span class="lightbox-close">&times;</span>
-  
-  <!-- NEW: Prev/Next buttons -->
-  <button class="lightbox-prev" aria-label="Previous image">&#8249;</button>
-  <button class="lightbox-next" aria-label="Next image">&#8250;</button>
-  
-  <img id="lightbox-img" class="lightbox-content" src="" alt="">
-</div>
-
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <a class="wordmark" href="index.html">Damien Boykin</a>
+        <p>Actor based in Austin, Texas. SAG-AFTRA eligible.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:damientboykin@gmail.com">damientboykin@gmail.com</a>
+        <a href="https://instagram.com/damien_boykin" rel="noopener">Instagram</a>
+        <a href="downloads/DamienBoykinResume.pdf">Résumé PDF</a>
+      </div>
+    </div>
+  </footer>
   <script src="javascript/script.js"></script>
-
-<script>
-// Enhanced lightbox with next/prev navigation
-const lightbox = document.getElementById('lightbox');
-const lightboxImg = document.getElementById('lightbox-img');
-const closeBtn = document.querySelector('.lightbox-close');
-const prevBtn = document.querySelector('.lightbox-prev');
-const nextBtn = document.querySelector('.lightbox-next');
-const galleryItems = Array.from(document.querySelectorAll('.gallery-item')); // Convert to array for indexing
-
-let currentIndex = 0;
-
-// Open lightbox at specific index
-function openLightbox(index) {
-  currentIndex = index;
-  const item = galleryItems[currentIndex];
-  lightboxImg.src = item.href;
-  lightboxImg.alt = item.querySelector('img').alt;
-  lightbox.style.display = 'flex';
-}
-
-// Close lightbox
-function closeLightbox() {
-  lightbox.style.display = 'none';
-}
-
-// Go to next image
-function nextImage() {
-  currentIndex = (currentIndex + 1) % galleryItems.length;
-  lightboxImg.src = galleryItems[currentIndex].href;
-  lightboxImg.alt = galleryItems[currentIndex].querySelector('img').alt;
-}
-
-// Go to previous image
-function prevImage() {
-  currentIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
-  lightboxImg.src = galleryItems[currentIndex].href;
-  lightboxImg.alt = galleryItems[currentIndex].querySelector('img').alt;
-}
-
-// Click on thumbnail
-galleryItems.forEach((item, index) => {
-  item.addEventListener('click', e => {
-    e.preventDefault();
-    openLightbox(index);
-  });
-});
-
-// Button clicks
-if (prevBtn) prevBtn.addEventListener('click', prevImage);
-if (nextBtn) nextBtn.addEventListener('click', nextImage);
-
-// Close actions
-closeBtn.addEventListener('click', closeLightbox);
-lightbox.addEventListener('click', e => {
-  if (e.target === lightbox) closeLightbox();
-});
-
-// Keyboard navigation
-document.addEventListener('keydown', e => {
-  if (lightbox.style.display === 'flex') {
-    if (e.key === 'ArrowRight') nextImage();
-    if (e.key === 'ArrowLeft') prevImage();
-    if (e.key === 'Escape') closeLightbox();
-  }
-});
-</script>
-
-  <!-- NEW: Masonry layout JavaScript (eliminates white gaps) -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const grid = document.querySelector('.gallery-grid');
-      if (!grid) return;
-
-      const items = grid.querySelectorAll('.gallery-item');
-
-      function applyMasonry() {
-        items.forEach(item => {
-          const img = item.querySelector('img');
-          if (img && img.complete) {
-            const rowHeight = 10;
-            const rowSpan = Math.ceil(img.offsetHeight / rowHeight + 10); // small buffer
-            item.style.gridRowEnd = `span ${rowSpan}`;
-          }
-        });
-      }
-
-      // Run after images load
-      let loaded = 0;
-      const total = items.length;
-
-      if (total === 0) return;
-
-      items.forEach(item => {
-        const img = item.querySelector('img');
-        if (img.complete) {
-          loaded++;
-        } else {
-          img.addEventListener('load', () => {
-            loaded++;
-            if (loaded === total) applyMasonry();
-          });
-        }
-      });
-
-      if (loaded === total) applyMasonry();
-
-      // Re-run on resize
-      window.addEventListener('resize', () => {
-        setTimeout(applyMasonry, 300);
-      });
-    });
-  </script>
+  <script src="javascript/gallery.js"></script>
 </body>
 </html>

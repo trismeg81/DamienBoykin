@@ -1,57 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Damien Boykin | Actor</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Damien Boykin | Actor, Austin TX</title>
+  <meta name="description" content="Damien Boykin is an Austin-based stage and screen actor trained at the Stella Adler Studio of Acting. Credits include ZACH Theatre and Cincinnati Playhouse.">
+  <link rel="canonical" href="https://damienboykin.com/">
+  <meta property="og:title" content="Damien Boykin | Actor, Austin TX">
+  <meta property="og:description" content="Damien Boykin is an Austin-based stage and screen actor trained at the Stella Adler Studio of Acting. Credits include ZACH Theatre and Cincinnati Playhouse.">
+  <meta property="og:image" content="https://damienboykin.com/images/headshots/professionalheadshot2.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1D2A38">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/big-shoulders-display.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+  <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="container header-grid">
-      <div class="name-location">
-        <h1>Damien Boykin</h1>
-        <p class="location">Austin, TX</p>
-      </div>
-      <nav class="main-nav">
-        <a href="index.html" class="active">Home</a>
+    <div class="wrap">
+      <a class="wordmark" href="index.html">Damien Boykin</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
         <a href="about.html">About</a>
-        <a href="resume.html">Resumé</a>
-        <a href="reels.html">Reels</a>
-        <a href="gallery.html">Gallery</a>
+        <a href="resume.html">Résumé</a>
+        <a href="reels.html">Reel</a>
+        <a href="gallery.html">Photos</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main class="container home-grid">
-    <div class="headshot">
-      <img src="images/headshots/professionalheadshot2.jpg" alt="Damien Boykin headshot">
-    </div>
+  <main id="main">
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-photo">
+        <img src="images/headshots/professionalheadshot2.jpg" width="1200" height="1800" alt="Headshot of Damien Boykin in a dark henley against a grey backdrop" fetchpriority="high">
+      </div>
+      <div class="hero-text">
+        <h1 class="hero-name"><span>Damien</span><span>Boykin</span></h1>
+        <p class="hero-lede">Stage and screen actor in Austin, trained at the Stella Adler Studio's three-year conservatory and in Chicago improv.</p>
+        <p class="hero-meta">SAG-AFTRA eligible, EMC. 5′7″, blue-green eyes.</p>
+        <div class="actions">
+          <a class="btn" href="mailto:damientboykin@gmail.com">Email Damien</a>
+          <a class="btn ghost" href="downloads/DamienBoykinResume.pdf">Download résumé</a>
+        </div>
+      </div>
+    </section>
 
-    <div class="credits">
-      <section class="upcoming">
-        <h2>Upcoming</h2>
-        <p><strong>“Murder on the Orient Express”</strong> – Zach Theater Austin – Dir. Jenny Lavery<br>
-           <strong>Workshop</strong> – “New Works Festival” – Summer 2026<br>
-           More TBA...</p>
-      </section>
+    <section class="section">
+      <div class="wrap">
+        <div class="now">
+          <div>
+            <h3>Most recent</h3>
+            <p><span class="show">Murder on the Orient Express</span>Hector MacQueen, ZACH Theatre. Directed by Jenny Lavery, 2026.</p>
+          </div>
+          <div>
+            <h3>Before that</h3>
+            <p><span class="show">Alias Grace</span>James McDermott, Cincinnati Playhouse. Directed by Blake Robison.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <section class="previous">
-        <h2>Previous</h2>
-        <p><strong>“Alias Grace”</strong> – James McDermott – Dir. Blake Robison<br>
-           <strong>"A Christmas Carol"</strong> – Dick Wilkins – Dir. Blake Robsion<br>
-           Various theater & film credits available on résumé</p>
-      </section>
+    <section class="section" aria-label="Production photos">
+      <div class="wrap">
+        <div class="stills">
+          <figure><img src="images/production/smoking.jpg" alt="Damien on stage in a plaid shirt, lighting a cigarette on a living-room set" loading="lazy"></figure>
+          <figure><img src="images/gallery/thumbs/gallery-59.jpg" alt="Damien in a navy jacket facing a scene partner on a dark stage" loading="lazy"></figure>
+          <figure><img src="images/gallery/thumbs/gallery-54.jpg" alt="Damien seated on a bench in a scene with a scene partner" loading="lazy"></figure>
+        </div>
+        <p class="section-foot"><a href="gallery.html">See all production photos</a></p>
+      </div>
+    </section>
 
-      <a href="contact.html" class="cta-button">Contact Me</a>
-    </div>
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">Reel</h2>
+        <div class="video">
+          <iframe src="https://www.youtube-nocookie.com/embed/pgPiaoCAWMo" title="Damien Boykin: Hamlet, To be or not to be" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p class="caption">Hamlet, “To be, or not to be.”</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">Selected stage credits</h2>
+        <ul class="leaders">
+          <li><span class="title">Murder on the Orient Express</span><span class="dots" aria-hidden="true"></span><span class="role">Hector MacQueen, ZACH Theatre</span></li>
+          <li><span class="title">Alias Grace</span><span class="dots" aria-hidden="true"></span><span class="role">James McDermott, Cincinnati Playhouse</span></li>
+          <li><span class="title">A Christmas Carol</span><span class="dots" aria-hidden="true"></span><span class="role">Dick Wilkins, Cincinnati Playhouse</span></li>
+          <li><span class="title">Miss Bennet: Christmas at Pemberley</span><span class="dots" aria-hidden="true"></span><span class="role">Fitzwilliam Darcy (u/s), Cincinnati Playhouse</span></li>
+          <li><span class="title">The Jungle Book (tour)</span><span class="dots" aria-hidden="true"></span><span class="role">Shere Khan, Cincinnati Playhouse</span></li>
+          <li><span class="title">Cyrano (tour)</span><span class="dots" aria-hidden="true"></span><span class="role">Cyrano, Cincinnati Playhouse</span></li>
+        </ul>
+        <p class="section-foot"><a href="resume.html">Full résumé, training and skills</a></p>
+      </div>
+    </section>
   </main>
 
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <a class="wordmark" href="index.html">Damien Boykin</a>
+        <p>Actor based in Austin, Texas. SAG-AFTRA eligible.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:damientboykin@gmail.com">damientboykin@gmail.com</a>
+        <a href="https://instagram.com/damien_boykin" rel="noopener">Instagram</a>
+        <a href="downloads/DamienBoykinResume.pdf">Résumé PDF</a>
+      </div>
+    </div>
+  </footer>
   <script src="javascript/script.js"></script>
 </body>
 </html>

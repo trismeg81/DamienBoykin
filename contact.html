@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact | Damien Boykin</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta name="description" content="Contact Damien Boykin for casting and bookings.">
+  <link rel="canonical" href="https://damienboykin.com/contact.html">
+  <meta property="og:title" content="Contact | Damien Boykin">
+  <meta property="og:description" content="Contact Damien Boykin for casting and bookings.">
+  <meta property="og:image" content="https://damienboykin.com/images/headshots/professionalheadshot2.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1D2A38">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/big-shoulders-display.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="container header-grid">
-      <div class="name-location">
-        <h1>Damien Boykin</h1>
-        <p class="location">Austin, TX</p>
-      </div>
-      <nav class="main-nav">
+    <div class="wrap">
+      <a class="wordmark" href="index.html">Damien Boykin</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="resume.html">Resumé</a>
-        <a href="reels.html">Reels</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact.html" class="active">Contact</a>
+        <a href="resume.html">Résumé</a>
+        <a href="reels.html">Reel</a>
+        <a href="gallery.html">Photos</a>
+        <a href="contact.html" aria-current="page">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main class="container contact">
-    <h2>Contact</h2>
-    
-    <p>Email: <a href="mailto:damientboykin@gmail.com">damientboykin@gmail.com</a></p>
-    
-    <p>Social:</p>
-    <ul>
-      <li>Instagram: <a href="https://instagram.com/damien_boykin" target="_blank">@damien_boykin</a></li>
-    </ul>
+  <main id="main">
+    <div class="wrap">
+      <header class="page-head">
+        <h1 class="page-title">Contact</h1>
+        <p>For casting, auditions and bookings, email Damien directly.</p>
+      </header>
+      <ul class="contact-list">
+        <li><span>Email</span><a href="mailto:damientboykin@gmail.com">damientboykin@gmail.com</a></li>
+        <li><span>Instagram</span><a href="https://instagram.com/damien_boykin" rel="noopener">@damien_boykin</a></li>
+        <li><span>Résumé</span><a href="downloads/DamienBoykinResume.pdf">Download PDF</a></li>
+        <li><span>Based in</span>Austin, Texas</li>
+      </ul>
+    </div>
   </main>
 
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <a class="wordmark" href="index.html">Damien Boykin</a>
+        <p>Actor based in Austin, Texas. SAG-AFTRA eligible.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:damientboykin@gmail.com">damientboykin@gmail.com</a>
+        <a href="https://instagram.com/damien_boykin" rel="noopener">Instagram</a>
+        <a href="downloads/DamienBoykinResume.pdf">Résumé PDF</a>
+      </div>
+    </div>
+  </footer>
   <script src="javascript/script.js"></script>
 </body>
 </html>

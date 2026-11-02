@@ -1,44 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About | Damien Boykin</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta name="description" content="About Damien Boykin, Austin actor trained at the Stella Adler Studio of Acting conservatory and iO Chicago.">
+  <link rel="canonical" href="https://damienboykin.com/about.html">
+  <meta property="og:title" content="About | Damien Boykin">
+  <meta property="og:description" content="About Damien Boykin, Austin actor trained at the Stella Adler Studio of Acting conservatory and iO Chicago.">
+  <meta property="og:image" content="https://damienboykin.com/images/headshots/professionalheadshot2.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1D2A38">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/big-shoulders-display.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="container header-grid">
-      <div class="name-location">
-        <h1>Damien Boykin</h1>
-        <p class="location">Austin, TX</p>
-      </div>
-      <nav class="main-nav">
+    <div class="wrap">
+      <a class="wordmark" href="index.html">Damien Boykin</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
         <a href="index.html">Home</a>
-        <a href="about.html" class="active">About</a>
-        <a href="resume.html">Resumé</a>
-        <a href="reels.html">Reels</a>
-        <a href="gallery.html">Gallery</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="resume.html">Résumé</a>
+        <a href="reels.html">Reel</a>
+        <a href="gallery.html">Photos</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main class="container home-grid">  <!-- Changed to home-grid for side-by-side layout -->
-    <div class="headshot">
-      <img src="images/headshots/professionalheadshot2.jpg" alt="Damien Boykin headshot">
-    </div>
-    <div class="bio">  <!-- New wrapper for the text column -->
-      <h2>About Me</h2>
-      <p>Damien Boykin is an Austin-based actor with training from the Stella Adler Studio of Acting 3-Year Professional Conservatory in NYC. Before that, he studied improv at iO and Annoyance Theatre's in Chicago while performing around the city. He has a passion for both stage and screen. He is known for his versatility in dramatic and comedic roles ranging from Shakespeare to Contemporary, to his self-produced comedy shows.</p>
-      <p>(SAG-AFTRA-Eligible/EMC)</p>
-      <!-- Add more paragraphs or sections here if needed -->
+  <main id="main">
+    <div class="wrap">
+      <header class="page-head"><h1 class="page-title">About</h1></header>
+      <div class="about">
+        <img src="images/headshots/smilingheadshot.jpg" alt="Damien Boykin smiling" loading="lazy">
+        <div class="prose">
+          <p>Damien Boykin is an Austin-based actor who works across Shakespeare, contemporary drama and comedy.</p>
+          <p>He trained at the Stella Adler Studio of Acting’s three-year professional conservatory in New York. Before that he studied improv at iO and the Annoyance Theatre in Chicago while performing around the city.</p>
+          <p>His stage work includes Hector MacQueen in <em>Murder on the Orient Express</em> at ZACH Theatre and James McDermott in <em>Alias Grace</em> at Cincinnati Playhouse, along with touring productions of <em>Cyrano</em> and <em>The Jungle Book</em>. He also writes and produces his own comedy, including the one-person show <em>E=MC2</em>.</p>
+          <dl class="facts">
+            <dt>Union</dt><dd>SAG-AFTRA eligible, EMC</dd>
+            <dt>Based in</dt><dd>Austin, Texas</dd>
+            <dt>Height</dt><dd>5′7″</dd>
+            <dt>Eyes / hair</dt><dd>Blue-green / brown</dd>
+            <dt>Accents</dt><dd>Southern (Texas, Mississippi, Carolinas), New York, Boston, Irish, English</dd>
+          </dl>
+        </div>
+      </div>
     </div>
   </main>
 
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <a class="wordmark" href="index.html">Damien Boykin</a>
+        <p>Actor based in Austin, Texas. SAG-AFTRA eligible.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:damientboykin@gmail.com">damientboykin@gmail.com</a>
+        <a href="https://instagram.com/damien_boykin" rel="noopener">Instagram</a>
+        <a href="downloads/DamienBoykinResume.pdf">Résumé PDF</a>
+      </div>
+    </div>
+  </footer>
   <script src="javascript/script.js"></script>
 </body>
 </html>
